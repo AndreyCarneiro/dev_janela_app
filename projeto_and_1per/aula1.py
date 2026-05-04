@@ -9,7 +9,7 @@ def main():
     root.resizable(True, True)
 
     # label simple (Etiqueta)
-    label = ttk.Label(root, text="Aerials", font=("Georgia", 16,"bold"))
+    label = ttk.Label(root, text="Aerials", font=("Georgia", 15,"bold"))
     label.pack(expand=True)
 
     # Botão para fechar a janela
