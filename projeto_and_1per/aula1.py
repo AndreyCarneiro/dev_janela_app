@@ -7,13 +7,24 @@ def main():
     root.title("Cruelty")
     root.geometry("400x200")
     root.resizable(True, True)
+    root.configure(bg="#251C1C")
 
     # label simple (Etiqueta)
-    label = ttk.Label(root, text="Aerials", font=("Georgia", 15,"bold"))
+    label = tk.Label(root, 
+        text="Aerials",
+        font=("Georgia", 30,"bold"),
+        fg="#8D1D1D",
+        bg="#251C1C"
+    )
     label.pack(expand=True)
 
     # Botão para fechar a janela
-    btn = ttk.Button(root, text="Fechar", command=root.destroy)
+    btn = tk.Button(root, 
+        text="Fechar",
+        font=("Arial", 12, "bold"),
+        fg="#FFFFFF",
+        bg="#8D1D1D",
+        command=root.destroy)
     btn.pack(anchor="s", padx=20)
     
     # Incia o loop de eventos
