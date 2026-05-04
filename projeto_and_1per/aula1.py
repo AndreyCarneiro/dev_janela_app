@@ -11,7 +11,7 @@ def main():
 
     # label simple (Etiqueta)
     label = tk.Label(root, 
-        text="Aerials",
+        text="I Love Cruelty\n🖤",
         font=("Georgia", 30,"bold"),
         fg="#8D1D1D",
         bg="#251C1C"
@@ -20,7 +20,7 @@ def main():
 
     # Botão para fechar a janela
     btn = tk.Button(root, 
-        text="Fechar",
+        text="Exit",
         font=("Arial", 12, "bold"),
         fg="#FFFFFF",
         bg="#8D1D1D",
