@@ -4,7 +4,7 @@ from tkinter import ttk
 def main():
     #Criação da janela "Pai/Raiz"
     root = tk.Tk()
-    root.title("Minha Primeira Janela")
+    root.title("Cruelty")
     root.geometry("400x200")
     root.resizable(True, True)
 
